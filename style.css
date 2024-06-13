@@ -66,8 +66,33 @@ header a {
     left: 0;
     width: 60%; 
     font-size: 260%; 
-    padding: 10px; 
     word-break: break-word; 
     padding-left: 14%;
 }
-
+.violet-box2 {
+    width: 750px;
+    height: 500px;
+    background-color: #9391F5; 
+    border-radius: 15px; 
+    display: flex;
+   
+    
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.violet-box2 img {
+    width: 80%;
+    height: 90%;
+    object-fit: cover; 
+    border-radius: 15px; 
+    margin-left: 3%;
+    margin-top: 3.5%;
+}
+.text2 {
+    position: absolute;
+    right: 0;
+    width: 53%; 
+    font-size: 260%; 
+    word-break: break-word; 
+    align-self: center;
+}
