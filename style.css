@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: Jockey One;
     margin: 0;
@@ -75,8 +78,6 @@ header a {
     background-color: #9391F5; 
     border-radius: 15px; 
     display: flex;
-   
-    
     margin-left: 10%;
     margin-top: 5%;
 }
@@ -95,4 +96,38 @@ header a {
     font-size: 260%; 
     word-break: break-word; 
     align-self: center;
+}
+.fahig {
+    margin-top: 10%;
+    margin-left: 23%;
+}
+.violet-box3 {
+    width: 700px;
+    height: 600px;
+    background-color: #9391F5; 
+    border-radius: 15px; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+    margin-top: -7%;
+}
+.violet-box4 {
+    width: 700px;
+    height: 600px;
+    background-color: #9391F5; 
+    border-radius: 15px; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 55%;
+    margin-top: -32.5%;
+}
+.text3 {
+    position: absolute;
+    width: 30%; 
+    font-size: 260%; 
+    word-break: break-word; 
+    margin-top: 5%;
+    text-align: center;
 }
