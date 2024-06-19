@@ -93,8 +93,8 @@ h2 {
 }
 
 .skills .violet-box {
-    flex: 35%; 
-    max-width: 40%;
+    flex: 40%; 
+    max-width: 30%;
 }
 .skills .violet-box .text {
     padding-left: 18%;
@@ -105,10 +105,15 @@ h2 {
     border-radius: 15px;
     margin-top: 1rem;
 }
+.textbox .text {
+    align-self: center;
+    text-align: center;
+    padding-left: 19%;
+}
 
 @media (max-width: 600px) {
     .skills .violet-box {
-        flex: 35%;
+        flex: 40%;
         max-width: 40%;
     }
 }
