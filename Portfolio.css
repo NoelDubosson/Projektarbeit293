@@ -80,6 +80,7 @@ h2 {
     word-break: break-word;
     text-align: center;
     margin: auto;
+    padding: 1rem;
 }
 .skills {
     display: flex;
