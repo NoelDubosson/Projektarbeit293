@@ -79,11 +79,7 @@ h2 {
     font-size: 1rem;
     word-break: break-word;
     text-align: center;
-    margin: 1rem 1;
-}
-
-.reverse {
-    flex-direction: row-reverse;
+    margin: auto;
 }
 .skills {
     display: flex;
@@ -96,18 +92,27 @@ h2 {
     flex: 40%; 
     max-width: 30%;
 }
-.skills .violet-box .text {
-    padding-left: 18%;
-}
 .violet-box img.project-image {
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
 .textbox .text {
-    align-self: center;
-    text-align: center;
-    padding-left: 20.5%;
+    margin: auto;
+}
+.iconsleft {
+    margin: auto;
+}
+.iconsright {
+    margin: auto;
+}
+.iconsleft span {
+    font-size: 1000%;
+    display: flex;
+}
+.iconsright span {
+    font-size: 1000%;
+    display: flex;
 }
 
 @media (max-width: 600px) {
